@@ -1,0 +1,90 @@
+body {
+  background-image: url(../Media/img/backgroung/fondoTotal.jpg); }
+
+.container {
+  background-color: white;
+ }
+
+.titulos {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  color: #165A8A; }
+
+.subtitulos {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+  color: #165A8A; }
+
+.parrafo {
+  font-family: 'Yusei Magic', sans-serif;
+  text-align: center; }
+
+.contenido {
+  font-family: 'Yusei Magic', sans-serif;
+  text-align: left; }
+
+div span {
+  font-family: 'Libre Baskerville', serif;
+  text-aling: left;
+  color: #009;
+  text-decoration: none; }
+
+div a {
+  color: red; }
+
+div ol li {
+  font-family: 'Libre Baskerville', serif;
+  color: #009; }
+
+section.PerrosYGatos {
+  display: grid;
+  grid-template-columns: 33% 33% 34%;
+  text-align: center; }
+  section.PerrosYGatos div {
+    border: LightSlateGrey solid 5px; }
+  section.PerrosYGatos div.PrimeraLinea {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 200;
+    font-style: italic;
+    text-decoration: underline;
+    color: #165A8A;
+    font-size: 2rem;
+    text-align: center; }
+  section.PerrosYGatos div.nombres {
+    font-family: 'Yusei Magic', sans-serif;
+    font-size: 3rem;
+    justify-content: center; }
+  section.PerrosYGatos ul {
+    list-style-image: url(../Media/img/pata.png); }
+    section.PerrosYGatos ul li {
+      font-family: 'Libre Baskerville', serif; }
+
+ul {
+  list-style-image: url(../Media/img/pata.png); }
+  ul ol {
+    list-style-image: none; }
+
+.imagenesComo {
+  display: grid;
+  grid-template-columns: 50% 50%; }
+  .imagenesComo img.img1 {
+    width: 35rem;
+    height: 15rem;
+    padding: 5px; }
+  .imagenesComo img.img2 {
+    width: 35rem;
+    height: 15rem;
+    padding: 5px; }
+
+.img-fluid-adop {
+  width: 325px;
+  height: 168.75px; }
+
+.img-fluid-adop:hover {
+  width: 367.5px;
+  height: 168.75px; }

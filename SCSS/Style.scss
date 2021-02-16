@@ -1,0 +1,107 @@
+$med: 2.5rem;
+$padd: 1.25px;
+body {
+		background-image:url(../Media/img/backgroung/fondoTotal.jpg);
+}
+.container{
+	background-color: white;
+}
+.titulos {
+	font-family: 'Libre Baskerville', serif;
+	font-size: $med+0.5;
+	text-align: center;
+	text-decoration: underline;
+	color: #165A8A;
+}
+.subtitulos {
+	font-family: 'Libre Baskerville', serif;
+	font-size: $med;
+	text-align: center;
+	font-style: italic;
+	text-decoration: underline;
+	color: #165A8A;
+}
+.parrafo {
+	font-family: 'Yusei Magic', sans-serif;
+	text-align: center;
+}
+.contenido {
+	font-family: 'Yusei Magic', sans-serif;
+	text-align: left;
+}
+
+div{
+	span{
+	font-family: 'Libre Baskerville', serif;
+	text-aling: left;
+	color: #009;
+	text-decoration: none;
+	}
+		a{
+			color:red;
+		}
+			ol {
+				li {
+					font-family: 'Libre Baskerville', serif;
+					color: #009;		
+					}
+			}	
+
+}
+section.PerrosYGatos {
+	display: grid;
+	grid-template-columns: 33% 33% 34%;
+	text-align: center;
+	div {
+	border: LightSlateGrey solid $padd*4;
+	}
+	div.PrimeraLinea{
+		font-family: 'Libre Baskerville', serif;
+		font-weight: 200;
+		font-style: italic;
+		text-decoration: underline;
+		color: #165A8A;
+		font-size: $med -(0.5);
+		text-align: center;
+	}
+	div.nombres {
+	font-family: 'Yusei Magic', sans-serif;
+	font-size: $med+0.5;
+	justify-content: center;
+	}
+	ul{
+		list-style-image:url(../Media/img/pata.png);
+		li{
+		font-family: 'Libre Baskerville', serif;
+		}
+	}
+}
+ul{
+	list-style-image:url(../Media/img/pata.png);
+	ol {
+	list-style-image: none;
+	}
+}
+.imagenesComo{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	img.img1{
+		width: 14*$med;
+		height:6*$med;
+		padding: $padd*4;
+	}
+	img.img2{
+		width: 14*$med;
+		height:6*$med;
+		padding: $padd*4;
+	}
+}
+.img-fluid-adop{
+	width: $padd*260;
+	height: $padd*135;
+}
+
+.img-fluid-adop:hover{
+	width: $padd*294;
+	height: $padd*135;
+}
